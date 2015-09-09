@@ -1,6 +1,10 @@
-(ns magadi.core)
+(ns magadi.core
+  (:gen-class)
+    (:require [magadi.loaders :as l]))
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+
+(defn )
+
+(defn -main [& args]
+      (print "printing the load request")
+      (print (l/load-request "transactionStatusQuery.xml")))

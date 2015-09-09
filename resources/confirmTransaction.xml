@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="tns:ns">
+    <soapenv:Header>
+        <tns:CheckOutHeader>
+            <MERCHANT_ID>?</MERCHANT_ID>
+            <PASSWORD>?</PASSWORD>
+            <TIMESTAMP>?</TIMESTAMP>
+        </tns:CheckOutHeader>
+    </soapenv:Header>
+    <soapenv:Body>
+        <tns:transactionConfirmRequest>
+            <!--Optional:-->
+            <TRX_ID>?</TRX_ID>
+            <!--Optional:-->
+            <MERCHANT_TRANSACTION_ID>?</MERCHANT_TRANSACTION_ID>
+        </tns:transactionConfirmRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

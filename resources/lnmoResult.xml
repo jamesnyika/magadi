@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="tns:ns">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <tns:ResultMsg>
+            <MSISDN>?</MSISDN>
+            <AMOUNT>?</AMOUNT>
+            <MPESA_TRX_DATE>?</MPESA_TRX_DATE>
+            <MPESA_TRX_ID>?</MPESA_TRX_ID>
+            <TRX_STATUS>?</TRX_STATUS>
+            <RETURN_CODE>?</RETURN_CODE>
+            <DESCRIPTION>?</DESCRIPTION>
+            <MERCHANT_TRANSACTION_ID>?</MERCHANT_TRANSACTION_ID>
+            <ENC_PARAMS>?</ENC_PARAMS>
+            <TRX_ID>?</TRX_ID>
+        </tns:ResultMsg>
+    </soapenv:Body>
+</soapenv:Envelope>
